@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <!-- Calculator -->
+    <div class="main_container">
+        <div class="display"></div>
+        <div class="keypad">
+            <button id="reset">AC</button>
+            <button id="delete"><i class="fa-solid fa-delete-left"></i></button>
+            <button id="multiplay">*</button>
+            <button id="devide">/</button>
+            <button id="seven">7</button>
+            <button id="eight">8</button>
+            <button id="nine">9</button>
+            <button id="subs">-</button>
+            <button id="four">4</button>
+            <button id="five">5</button>
+            <button id="six">6</button>
+            <button id="sum">+</button>
+            <button id="three">1</button>
+            <button id="two">2</button>
+            <button id="one">3</button>
+            <button id="enter">Enter</button>
+            <button id="zero">0</button>
+            <button id="comma">.</button>
+        </div>
+    </div>
+
+    <div class="history_container">
+        <button class="fas" title="History"><i class="fa-solid fa-bars"></i></button>
+        <div id="history"></div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuidv4.min.js"></script>
+    <script src="./Js/app.js"></script>
+</body>
+</html>
